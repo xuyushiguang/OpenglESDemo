@@ -1,13 +1,37 @@
 //
-//  IRenderingEngine.m
+//  IRenderingEngine2.m
 //  OpenGlApp
 //
 //  Created by xingye yang on 2021/12/25.
 //
 
-#import "IRenderingEngine.h"
+#import "IRenderingEngine2.h"
+//#include <vector>
+
+
+struct Animation {
+    
+};
+
+struct Vector3 {
+    float x;
+    float y;
+    float z;
+};
+typedef struct Vector3 vec3;
+
+struct Vector4 {
+    float x;
+    float y;
+    float z;
+    float w;
+};
+
+typedef struct Vector4 vec4;
 
 static const float RevolutionsPerSecond = 1;
+static const float AnimationDuration = 0.25;
+
 struct Vertex{
     float Position[2];
     float Color[4];
@@ -15,7 +39,7 @@ struct Vertex{
 
 typedef struct Vertex Vertex;
 
-const Vertex Vertices[] = {
+const Vertex Vertices2[] = {
     {{-0.5,-0.866},{1,1,0.5,1}},
     {{0.5,-0.866},{1,1,0.5,1}},
     {{0,1},{1,1,0.5,1}},
@@ -24,8 +48,7 @@ const Vertex Vertices[] = {
     {{0,-0.4},{0.5,0.5,1}},
 };
 
-
-@implementation IRenderingEngine
+@implementation IRenderingEngine2
 
 - (instancetype)init
 {
@@ -127,9 +150,9 @@ const Vertex Vertices[] = {
     glEnableClientState(GL_VERTEX_ARRAY);
     glEnableClientState(GL_COLOR_ARRAY);
     
-    glVertexPointer(2, GL_FLOAT, sizeof(Vertex), &Vertices[0].Position[0]);
-    glColorPointer(4, GL_FLOAT, sizeof(Vertex), &Vertices[0].Color[0]);
-    GLsizei vertexCount = sizeof(Vertices)/sizeof(Vertex);
+    glVertexPointer(2, GL_FLOAT, sizeof(Vertex), &Vertices2[0].Position[0]);
+    glColorPointer(4, GL_FLOAT, sizeof(Vertex), &Vertices2[0].Color[0]);
+    GLsizei vertexCount = sizeof(Vertices2)/sizeof(Vertex);
     glDrawArrays(GL_TRIANGLES, 0, vertexCount);
     glDisableClientState(GL_VERTEX_ARRAY);
     glDisableClientState(GL_COLOR_ARRAY);
@@ -171,9 +194,9 @@ const Vertex Vertices[] = {
 //    glVertexPointer(2, GL_FLOAT, stride,triangles);
 //    glDrawArrays(GL_LINE_STRIP, 0, sizeof(triangles)/stride);
     
-    float triangles2[][2] = {{0,0},{0,1},{1,1},{1,0}};
-    glVertexPointer(2, GL_FLOAT, stride,triangles2);
-    glDrawArrays(GL_LINE_LOOP, 0, sizeof(triangles2)/stride);//开始渲染
+    float triangles[][2] = {{0,0},{0,1},{1,1},{1,0}};
+    glVertexPointer(2, GL_FLOAT, stride,triangles);
+    glDrawArrays(GL_LINE_LOOP, 0, sizeof(triangles)/stride);//开始渲染
         
     
     
@@ -198,6 +221,7 @@ const Vertex Vertices[] = {
         m_currentAngle = m_desiredAngle;
     }
 }
+
 -(void) OnRotate:(UIDeviceOrientation)newOrientation
 {
     float angle = 0;

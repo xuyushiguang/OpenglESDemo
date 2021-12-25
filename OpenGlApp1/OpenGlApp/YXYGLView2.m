@@ -1,24 +1,18 @@
 //
-//  YXYGlView.m
+//  YXYGLView2.m
 //  OpenGlApp
 //
 //  Created by xingye yang on 2021/12/25.
 //
 
-#import "YXYGlView.h"
+#import "YXYGLView2.h"
 #import <OpenGLES/EAGLDrawable.h>
 #import <OpenGLES/ES2/gl.h>
 //#import <OpenGLES/ES1/glext.h>
 #import <QuartzCore/QuartzCore.h>
 
-//#import "IRenderingEngine.hpp"
-//#include "IRenderingEngine1.cpp"
 
-@interface YXYGlView ()
-
-@end
-
-@implementation YXYGlView
+@implementation YXYGLView2
 
 + (Class)layerClass{
     return [CAEAGLLayer class];
@@ -44,7 +38,7 @@
             return nil;
         }
         
-        m_RenderingEngine = [[IRenderingEngine alloc] init];
+        m_RenderingEngine = [[IRenderingEngine2 alloc] init];
         
 //        GLuint framebuffer,renderbuffer;
 //        glGenFramebuffersOES(1, &framebuffer);
@@ -92,3 +86,4 @@
 }
 
 @end
+

@@ -21,11 +21,11 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
-    glView = [[YXYGlView alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    [self.view addSubview:glView];
+//    glView = [[YXYGlView alloc] initWithFrame:[UIScreen mainScreen].bounds];
+//    [self.view addSubview:glView];
     
-//    glView2 = [[YXYGLView2 alloc] initWithFrame:[UIScreen mainScreen].bounds];
-//    [self.view addSubview:glView2];
+    glView2 = [[YXYGLView2 alloc] initWithFrame:[UIScreen mainScreen].bounds];
+    [self.view addSubview:glView2];
     
 }
 

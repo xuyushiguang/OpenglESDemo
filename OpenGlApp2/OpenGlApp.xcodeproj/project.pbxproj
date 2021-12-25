@@ -42,6 +42,9 @@
 		63C3A2ED27770D5E00938C0A /* YXYGLView2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYGLView2.m; sourceTree = "<group>"; };
 		63C3A2EF27770DB200938C0A /* IRenderingEngine2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRenderingEngine2.h; sourceTree = "<group>"; };
 		63C3A2F027770DB200938C0A /* IRenderingEngine2.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = IRenderingEngine2.mm; sourceTree = "<group>"; };
+		63C3A2F92777278300938C0A /* Vector.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Vector.hpp; sourceTree = "<group>"; };
+		63C3A2FA2777278300938C0A /* Matrix.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Matrix.hpp; sourceTree = "<group>"; };
+		63C3A2FB2777278300938C0A /* Quaternion.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Quaternion.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +88,7 @@
 				63C3A2ED27770D5E00938C0A /* YXYGLView2.m */,
 				63C3A2EF27770DB200938C0A /* IRenderingEngine2.h */,
 				63C3A2F027770DB200938C0A /* IRenderingEngine2.mm */,
+				63C3A2F82777278300938C0A /* vec */,
 				63C3A2C72776C15B00938C0A /* ViewController.h */,
 				63C3A2C82776C15B00938C0A /* ViewController.m */,
 				63C3A2E72776E62500938C0A /* IRenderingEngine.h */,
@@ -105,6 +109,16 @@
 				63C3A2DE2776C27A00938C0A /* OpenGLES.framework */,
 			);
 			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		63C3A2F82777278300938C0A /* vec */ = {
+			isa = PBXGroup;
+			children = (
+				63C3A2F92777278300938C0A /* Vector.hpp */,
+				63C3A2FA2777278300938C0A /* Matrix.hpp */,
+				63C3A2FB2777278300938C0A /* Quaternion.hpp */,
+			);
+			path = vec;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

@@ -1,5 +1,5 @@
 //
-//  IRenderingEngine.h
+//  IRenderingEngine2.h
 //  OpenGlApp
 //
 //  Created by xingye yang on 2021/12/25.
@@ -9,19 +9,14 @@
 #import <OpenGLES/ES1/gl.h>
 #import <OpenGLES/ES1/glext.h>
 
+
 NS_ASSUME_NONNULL_BEGIN
 
-
-
-
-
-@interface IRenderingEngine : NSObject
+@interface IRenderingEngine2 : NSObject
 {
     GLuint m_framebuffer;
-    GLuint m_renderbuffer;
-    float m_currentAngle;
-    
-    float m_desiredAngle;
+    GLuint m_colorRenderbuffer;
+    GLuint m_depthRenderbuffer;
 }
 
 -(void) Initialize:(int)width height:(int)height;
@@ -30,6 +25,10 @@ NS_ASSUME_NONNULL_BEGIN
 -(void) OnRotate:(UIDeviceOrientation)newOrientation;
 
 -(float)RotationDirection;
+
+-(void)OnFindUp:(CGPoint)point;
+-(void)OnFindDown:(CGPoint)point;
+-(void)OnFindMove:(CGPoint)point point2:(CGPoint)point2;
 
 @end
 
