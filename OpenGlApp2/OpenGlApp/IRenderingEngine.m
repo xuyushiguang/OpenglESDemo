@@ -65,9 +65,9 @@ const Vertex Vertices[] = {
 
 -(void) Render
 {
-//    [self zhengfangxing];
+    [self zhengfangxing];
 //    [self sanjiaoxing];
-    [self zhengfangxing2];
+//    [self zhengfangxing2];
 }
 
 //关节旋转
