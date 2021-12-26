@@ -8,8 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		6361583E27784B2500C821BD /* ApplicationEngin.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6361583D27784B2500C821BD /* ApplicationEngin.mm */; };
-		6361585B2778814D00C821BD /* PixelLighting.es2.frag in Resources */ = {isa = PBXBuildFile; fileRef = 636158592778814D00C821BD /* PixelLighting.es2.frag */; };
-		6361585C2778814D00C821BD /* PixelLighting.es2.vert in Resources */ = {isa = PBXBuildFile; fileRef = 6361585A2778814D00C821BD /* PixelLighting.es2.vert */; };
+		6361585727787F1900C821BD /* PixelLighting.es2.frag in Resources */ = {isa = PBXBuildFile; fileRef = 6361585527787F1900C821BD /* PixelLighting.es2.frag */; };
+		6361585827787F1900C821BD /* PixelLighting.es2.vert in Resources */ = {isa = PBXBuildFile; fileRef = 6361585627787F1900C821BD /* PixelLighting.es2.vert */; };
 		63C3A2C32776C15B00938C0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C3A2C22776C15B00938C0A /* AppDelegate.m */; };
 		63C3A2C92776C15B00938C0A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C3A2C82776C15B00938C0A /* ViewController.m */; };
 		63C3A2CC2776C15B00938C0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C3A2CA2776C15B00938C0A /* Main.storyboard */; };
@@ -26,8 +26,8 @@
 /* Begin PBXFileReference section */
 		6361583C27784B2500C821BD /* ApplicationEngin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApplicationEngin.h; sourceTree = "<group>"; };
 		6361583D27784B2500C821BD /* ApplicationEngin.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ApplicationEngin.mm; sourceTree = "<group>"; };
-		636158592778814D00C821BD /* PixelLighting.es2.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = PixelLighting.es2.frag; sourceTree = "<group>"; };
-		6361585A2778814D00C821BD /* PixelLighting.es2.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = PixelLighting.es2.vert; sourceTree = "<group>"; };
+		6361585527787F1900C821BD /* PixelLighting.es2.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = PixelLighting.es2.frag; sourceTree = "<group>"; };
+		6361585627787F1900C821BD /* PixelLighting.es2.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = PixelLighting.es2.vert; sourceTree = "<group>"; };
 		63C3A2BE2776C15B00938C0A /* OpenGlApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGlApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63C3A2C12776C15B00938C0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		63C3A2C22776C15B00938C0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -123,8 +123,8 @@
 		63E609D42778457F004FC430 /* Shaders */ = {
 			isa = PBXGroup;
 			children = (
-				636158592778814D00C821BD /* PixelLighting.es2.frag */,
-				6361585A2778814D00C821BD /* PixelLighting.es2.vert */,
+				6361585527787F1900C821BD /* PixelLighting.es2.frag */,
+				6361585627787F1900C821BD /* PixelLighting.es2.vert */,
 				63E609D52778457F004FC430 /* Simple.frag */,
 				63E609D62778457F004FC430 /* Simple.vert */,
 			);
@@ -187,9 +187,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6361585B2778814D00C821BD /* PixelLighting.es2.frag in Resources */,
+				6361585727787F1900C821BD /* PixelLighting.es2.frag in Resources */,
 				63C3A2D12776C15D00938C0A /* LaunchScreen.storyboard in Resources */,
-				6361585C2778814D00C821BD /* PixelLighting.es2.vert in Resources */,
+				6361585827787F1900C821BD /* PixelLighting.es2.vert in Resources */,
 				63C3A2CE2776C15D00938C0A /* Assets.xcassets in Resources */,
 				63E609D82778457F004FC430 /* Simple.vert in Resources */,
 				63C3A2CC2776C15B00938C0A /* Main.storyboard in Resources */,

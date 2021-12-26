@@ -741,7 +741,7 @@ GLuint BuildProgram(const char* vertexShaderSource,
         visuals[visualIndex].Orientation = Quaternion();
     }
     
-    visuals[m_currentSurface].Color = m_spinning ? vec3(1, 1, 0.75f) : vec3(1, 1, 0.5f);
+    visuals[m_currentSurface].Color = m_spinning ? vec3(1, 1, 0.75f) : vec3(1, 1, 0.5);
     visuals[m_currentSurface].LowerLeft = ivec2(0, m_buttonSize.y);
     visuals[m_currentSurface].ViewportSize = ivec2(m_screenSize.x, m_screenSize.y);
     visuals[m_currentSurface].Orientation = m_orientation;
