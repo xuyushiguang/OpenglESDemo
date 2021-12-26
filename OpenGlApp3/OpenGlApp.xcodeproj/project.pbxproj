@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6361583E27784B2500C821BD /* ApplicationEngin.mm in Sources */ = {isa = PBXBuildFile; fileRef = 6361583D27784B2500C821BD /* ApplicationEngin.mm */; };
 		63C3A2C32776C15B00938C0A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C3A2C22776C15B00938C0A /* AppDelegate.m */; };
 		63C3A2C92776C15B00938C0A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C3A2C82776C15B00938C0A /* ViewController.m */; };
 		63C3A2CC2776C15B00938C0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 63C3A2CA2776C15B00938C0A /* Main.storyboard */; };
@@ -15,17 +16,14 @@
 		63C3A2D42776C15D00938C0A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C3A2D32776C15D00938C0A /* main.m */; };
 		63C3A2DF2776C27A00938C0A /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C3A2DE2776C27A00938C0A /* OpenGLES.framework */; };
 		63C3A2E12776C2A400938C0A /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63C3A2E02776C2A400938C0A /* QuartzCore.framework */; };
-		63C3A2EE27770D5E00938C0A /* YXYGLView2.m in Sources */ = {isa = PBXBuildFile; fileRef = 63C3A2ED27770D5E00938C0A /* YXYGLView2.m */; };
-		63C3A2F127770DB200938C0A /* IRenderingEngine2.mm in Sources */ = {isa = PBXBuildFile; fileRef = 63C3A2F027770DB200938C0A /* IRenderingEngine2.mm */; };
-		63E609B527783166004FC430 /* YXYGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 63E609B427783166004FC430 /* YXYGLView.mm */; };
-		63E609B827783281004FC430 /* ApplicationEngine.ParametricViewer.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63E609B727783281004FC430 /* ApplicationEngine.ParametricViewer.cpp */; };
-		63E609BD27783293004FC430 /* RenderingEngine.SolidES2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63E609BA27783293004FC430 /* RenderingEngine.SolidES2.cpp */; };
-		63E609BE27783293004FC430 /* ParametricSurface.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 63E609BC27783293004FC430 /* ParametricSurface.cpp */; };
-		63E609C2277833FA004FC430 /* PixelLighting.es2.frag in Resources */ = {isa = PBXBuildFile; fileRef = 63E609C0277833FA004FC430 /* PixelLighting.es2.frag */; };
-		63E609C3277833FA004FC430 /* PixelLighting.es2.vert in Resources */ = {isa = PBXBuildFile; fileRef = 63E609C1277833FA004FC430 /* PixelLighting.es2.vert */; };
+		63E609D72778457F004FC430 /* Simple.frag in Resources */ = {isa = PBXBuildFile; fileRef = 63E609D52778457F004FC430 /* Simple.frag */; };
+		63E609D82778457F004FC430 /* Simple.vert in Resources */ = {isa = PBXBuildFile; fileRef = 63E609D62778457F004FC430 /* Simple.vert */; };
+		63E609DD2778458E004FC430 /* YXYGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 63E609DA2778458D004FC430 /* YXYGLView.mm */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6361583C27784B2500C821BD /* ApplicationEngin.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ApplicationEngin.h; sourceTree = "<group>"; };
+		6361583D27784B2500C821BD /* ApplicationEngin.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ApplicationEngin.mm; sourceTree = "<group>"; };
 		63C3A2BE2776C15B00938C0A /* OpenGlApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGlApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		63C3A2C12776C15B00938C0A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		63C3A2C22776C15B00938C0A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -38,23 +36,13 @@
 		63C3A2D32776C15D00938C0A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		63C3A2DE2776C27A00938C0A /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		63C3A2E02776C2A400938C0A /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		63C3A2EC27770D5E00938C0A /* YXYGLView2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYGLView2.h; sourceTree = "<group>"; };
-		63C3A2ED27770D5E00938C0A /* YXYGLView2.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YXYGLView2.m; sourceTree = "<group>"; };
-		63C3A2EF27770DB200938C0A /* IRenderingEngine2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = IRenderingEngine2.h; sourceTree = "<group>"; };
-		63C3A2F027770DB200938C0A /* IRenderingEngine2.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = IRenderingEngine2.mm; sourceTree = "<group>"; };
 		63C3A2F92777278300938C0A /* Vector.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Vector.hpp; sourceTree = "<group>"; };
 		63C3A2FA2777278300938C0A /* Matrix.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Matrix.hpp; sourceTree = "<group>"; };
 		63C3A2FB2777278300938C0A /* Quaternion.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Quaternion.hpp; sourceTree = "<group>"; };
-		63E609B327783166004FC430 /* YXYGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = YXYGLView.h; sourceTree = "<group>"; };
-		63E609B427783166004FC430 /* YXYGLView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = YXYGLView.mm; sourceTree = "<group>"; };
-		63E609B6277831F0004FC430 /* Interfaces.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Interfaces.hpp; sourceTree = "<group>"; };
-		63E609B727783281004FC430 /* ApplicationEngine.ParametricViewer.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ApplicationEngine.ParametricViewer.cpp; sourceTree = "<group>"; };
-		63E609B927783293004FC430 /* ParametricEquations.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ParametricEquations.hpp; sourceTree = "<group>"; };
-		63E609BA27783293004FC430 /* RenderingEngine.SolidES2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RenderingEngine.SolidES2.cpp; sourceTree = "<group>"; };
-		63E609BB27783293004FC430 /* ParametricSurface.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = ParametricSurface.hpp; sourceTree = "<group>"; };
-		63E609BC27783293004FC430 /* ParametricSurface.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ParametricSurface.cpp; sourceTree = "<group>"; };
-		63E609C0277833FA004FC430 /* PixelLighting.es2.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = PixelLighting.es2.frag; sourceTree = "<group>"; };
-		63E609C1277833FA004FC430 /* PixelLighting.es2.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = PixelLighting.es2.vert; sourceTree = "<group>"; };
+		63E609D52778457F004FC430 /* Simple.frag */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Simple.frag; sourceTree = "<group>"; };
+		63E609D62778457F004FC430 /* Simple.vert */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = Simple.vert; sourceTree = "<group>"; };
+		63E609D92778458D004FC430 /* YXYGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YXYGLView.h; sourceTree = "<group>"; };
+		63E609DA2778458D004FC430 /* YXYGLView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = YXYGLView.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,19 +82,11 @@
 				63C3A2C22776C15B00938C0A /* AppDelegate.m */,
 				63C3A2C72776C15B00938C0A /* ViewController.h */,
 				63C3A2C82776C15B00938C0A /* ViewController.m */,
-				63E609B327783166004FC430 /* YXYGLView.h */,
-				63E609B427783166004FC430 /* YXYGLView.mm */,
-				63E609B6277831F0004FC430 /* Interfaces.hpp */,
-				63E609B727783281004FC430 /* ApplicationEngine.ParametricViewer.cpp */,
-				63E609B927783293004FC430 /* ParametricEquations.hpp */,
-				63E609BC27783293004FC430 /* ParametricSurface.cpp */,
-				63E609BB27783293004FC430 /* ParametricSurface.hpp */,
-				63E609BA27783293004FC430 /* RenderingEngine.SolidES2.cpp */,
-				63C3A2EC27770D5E00938C0A /* YXYGLView2.h */,
-				63C3A2ED27770D5E00938C0A /* YXYGLView2.m */,
-				63C3A2EF27770DB200938C0A /* IRenderingEngine2.h */,
-				63C3A2F027770DB200938C0A /* IRenderingEngine2.mm */,
-				63E609BF277833FA004FC430 /* Shaders */,
+				6361583C27784B2500C821BD /* ApplicationEngin.h */,
+				6361583D27784B2500C821BD /* ApplicationEngin.mm */,
+				63E609D92778458D004FC430 /* YXYGLView.h */,
+				63E609DA2778458D004FC430 /* YXYGLView.mm */,
+				63E609D42778457F004FC430 /* Shaders */,
 				63C3A2F82777278300938C0A /* vec */,
 				63C3A2CA2776C15B00938C0A /* Main.storyboard */,
 				63C3A2CD2776C15D00938C0A /* Assets.xcassets */,
@@ -136,14 +116,14 @@
 			path = vec;
 			sourceTree = "<group>";
 		};
-		63E609BF277833FA004FC430 /* Shaders */ = {
+		63E609D42778457F004FC430 /* Shaders */ = {
 			isa = PBXGroup;
 			children = (
-				63E609C0277833FA004FC430 /* PixelLighting.es2.frag */,
-				63E609C1277833FA004FC430 /* PixelLighting.es2.vert */,
+				63E609D52778457F004FC430 /* Simple.frag */,
+				63E609D62778457F004FC430 /* Simple.vert */,
 			);
 			path = Shaders;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 /* End PBXGroup section */
 
@@ -201,11 +181,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63E609C2277833FA004FC430 /* PixelLighting.es2.frag in Resources */,
 				63C3A2D12776C15D00938C0A /* LaunchScreen.storyboard in Resources */,
-				63E609C3277833FA004FC430 /* PixelLighting.es2.vert in Resources */,
 				63C3A2CE2776C15D00938C0A /* Assets.xcassets in Resources */,
+				63E609D82778457F004FC430 /* Simple.vert in Resources */,
 				63C3A2CC2776C15B00938C0A /* Main.storyboard in Resources */,
+				63E609D72778457F004FC430 /* Simple.frag in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -216,15 +196,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				63E609B527783166004FC430 /* YXYGLView.mm in Sources */,
-				63E609B827783281004FC430 /* ApplicationEngine.ParametricViewer.cpp in Sources */,
-				63C3A2F127770DB200938C0A /* IRenderingEngine2.mm in Sources */,
+				63E609DD2778458E004FC430 /* YXYGLView.mm in Sources */,
+				6361583E27784B2500C821BD /* ApplicationEngin.mm in Sources */,
 				63C3A2C92776C15B00938C0A /* ViewController.m in Sources */,
-				63E609BD27783293004FC430 /* RenderingEngine.SolidES2.cpp in Sources */,
 				63C3A2C32776C15B00938C0A /* AppDelegate.m in Sources */,
 				63C3A2D42776C15D00938C0A /* main.m in Sources */,
-				63E609BE27783293004FC430 /* ParametricSurface.cpp in Sources */,
-				63C3A2EE27770D5E00938C0A /* YXYGLView2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -369,6 +345,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VNF8D63KDW;
+				GCC_INPUT_FILETYPE = automatic;
 				INFOPLIST_FILE = OpenGlApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -388,6 +365,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = VNF8D63KDW;
+				GCC_INPUT_FILETYPE = automatic;
 				INFOPLIST_FILE = OpenGlApp/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
